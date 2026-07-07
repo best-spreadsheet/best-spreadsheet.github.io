@@ -1,0 +1,29 @@
+/* 自定义主题色 */
+:root {
+  --vp-c-brand-1: #e53935;
+  --vp-c-brand-2: #c62828;
+  --vp-c-brand-3: #b71c1c;
+}
+
+/* 自定义按钮样式 */
+.VPButton.brand {
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.VPButton.brand:hover {
+  transform: translateY(-2px);
+}
+
+/* 自定义卡片悬停效果 */
+.feature, .platform-card {
+  transition: all 0.3s ease;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .features, .platform-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
