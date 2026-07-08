@@ -43,13 +43,14 @@ features:
  <div class="section-container">
  <h2 class="section-title">Quick Access</h2>
  <div class="quick-btn-row">
+ <a href="#platforms" class="quick-btn">Kakobuy</a>
+ <a href="#platforms" class="quick-btn">Oopbuy</a>
+ <a href="#platforms" class="quick-btn">USFans</a>
+ <a href="#platforms" class="quick-btn">Weidian</a>
+ <a href="#platforms" class="quick-btn">Litbuy</a>
  <a href="#platforms" class="quick-btn">Mulebuy</a>
  <a href="#platforms" class="quick-btn">Superbuy</a>
- <a href="#platforms" class="quick-btn">USFans</a>
  <a href="#platforms" class="quick-btn">GTBuy</a>
- <a href="#platforms" class="quick-btn">Litbuy</a>
- <a href="#platforms" class="quick-btn">Kakobuy</a>
- <a href="#platforms" class="quick-btn">Weidian</a>
  <a href="#platforms" class="quick-btn">Acbuy</a>
  </div>
  </div>
@@ -61,6 +62,62 @@ features:
  <h2 class="section-title">Choose Your Platform</h2>
  <p class="section-subtitle">Select a platform to access curated product spreadsheets</p>
  <div class="platform-grid">
+
+ <div class="platform-card featured-card">
+ <div class="card-top">
+ <span class="card-icon"></span>
+ <h3>Kakobuy</h3>
+ <span class="card-badge">Popular</span>
+ </div>
+ <p class="card-desc">Premium shopping assistant with multi-language support and extensive product catalog</p>
+ <div class="card-tags"><span>English</span><span>Polish</span><span>All Categories</span></div>
+ <div class="card-btn-row">
+ <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1903531254#gid=1903531254" target="_blank" rel="noopener" class="card-btn">English →</a>
+ <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=2130476646#gid=2130476646" target="_blank" rel="noopener" class="card-btn secondary">Polish →</a>
+ </div>
+ </div>
+
+ <div class="platform-card featured-card">
+ <div class="card-top">
+ <span class="card-icon"></span>
+ <h3>Oopbuy</h3>
+ <span class="card-badge">Popular</span>
+ </div>
+ <p class="card-desc">Reliable sourcing platform with competitive pricing and quality assurance</p>
+ <div class="card-tags"><span>Shoes</span><span>Clothing</span><span>Accessories</span></div>
+ <a href="https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=284704653#gid=284704653" target="_blank" rel="noopener" class="card-btn">Visit →</a>
+ </div>
+
+ <div class="platform-card featured-card">
+ <div class="card-top">
+ <span class="card-icon"></span>
+ <h3>USFans</h3>
+ <span class="card-badge">Popular</span>
+ </div>
+ <p class="card-desc">Fan-favorite platform with exclusive deals and community recommendations</p>
+ <div class="card-tags"><span>Jerseys</span><span>Sneakers</span><span>Streetwear</span></div>
+ <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1596091550#gid=1596091550" target="_blank" rel="noopener" class="card-btn">Visit →</a>
+ </div>
+
+ <div class="platform-card">
+ <div class="card-top">
+ <span class="card-icon"></span>
+ <h3>Weidian</h3>
+ </div>
+ <p class="card-desc">Direct from micro-stores with unique finds and limited editions</p>
+ <div class="card-tags"><span>Unique</span><span>Limited</span><span>Direct</span></div>
+ <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=786221234#gid=786221234" target="_blank" rel="noopener" class="card-btn">Visit →</a>
+ </div>
+
+ <div class="platform-card">
+ <div class="card-top">
+ <span class="card-icon"></span>
+ <h3>Litbuy</h3>
+ </div>
+ <p class="card-desc">Trending products and viral items at unbeatable prices</p>
+ <div class="card-tags"><span>Trending</span><span>Viral</span><span>Deals</span></div>
+ <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1188337117#gid=1188337117" target="_blank" rel="noopener" class="card-btn">Visit →</a>
+ </div>
 
  <div class="platform-card">
  <div class="card-top">
@@ -85,55 +142,11 @@ features:
  <div class="platform-card">
  <div class="card-top">
  <span class="card-icon"></span>
- <h3>USFans</h3>
- </div>
- <p class="card-desc">Fan-favorite platform with exclusive deals and community recommendations</p>
- <div class="card-tags"><span>Jerseys</span><span>Sneakers</span><span>Streetwear</span></div>
- <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1596091550#gid=1596091550" target="_blank" rel="noopener" class="card-btn">Visit →</a>
- </div>
-
- <div class="platform-card">
- <div class="card-top">
- <span class="card-icon"></span>
  <h3>GTBuy</h3>
  </div>
  <p class="card-desc">Precision sourcing with detailed product specifications and reviews</p>
  <div class="card-tags"><span>Budget</span><span>Electronics</span><span>Home</span></div>
  <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1704458357#gid=1704458357" target="_blank" rel="noopener" class="card-btn">Visit →</a>
- </div>
-
- <div class="platform-card">
- <div class="card-top">
- <span class="card-icon"></span>
- <h3>Litbuy</h3>
- </div>
- <p class="card-desc">Trending products and viral items at unbeatable prices</p>
- <div class="card-tags"><span>Trending</span><span>Viral</span><span>Deals</span></div>
- <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1188337117#gid=1188337117" target="_blank" rel="noopener" class="card-btn">Visit →</a>
- </div>
-
- <div class="platform-card featured-card">
- <div class="card-top">
- <span class="card-icon"></span>
- <h3>Kakobuy</h3>
- <span class="card-badge">Popular</span>
- </div>
- <p class="card-desc">Premium shopping assistant with multi-language support and extensive product catalog</p>
- <div class="card-tags"><span>English</span><span>Polish</span><span>All Categories</span></div>
- <div class="card-btn-row">
- <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1903531254#gid=1903531254" target="_blank" rel="noopener" class="card-btn">English →</a>
- <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=2130476646#gid=2130476646" target="_blank" rel="noopener" class="card-btn secondary">Polish →</a>
- </div>
- </div>
-
- <div class="platform-card">
- <div class="card-top">
- <span class="card-icon"></span>
- <h3>Weidian</h3>
- </div>
- <p class="card-desc">Direct from micro-stores with unique finds and limited editions</p>
- <div class="card-tags"><span>Unique</span><span>Limited</span><span>Direct</span></div>
- <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=786221234#gid=786221234" target="_blank" rel="noopener" class="card-btn">Visit →</a>
  </div>
 
  <div class="platform-card">

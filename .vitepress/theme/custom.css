@@ -26,6 +26,38 @@
  padding-top: 2.4rem;
 }
 
+/* ===== Hero Section Centered ===== */
+.VPHero {
+ text-align: center !important;
+}
+
+.VPHero .main {
+ text-align: center !important;
+}
+
+.VPHero .name {
+ white-space: nowrap !important;
+ text-align: center !important;
+}
+
+.VPHero .text {
+ white-space: nowrap !important;
+ text-align: center !important;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+
+.VPHero .tagline {
+ white-space: nowrap !important;
+ text-align: center !important;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+
+.VPHero .actions {
+ justify-content: center !important;
+}
+
 /* ===== Section Base ===== */
 .section {
  padding: var(--section-padding);
@@ -202,8 +234,8 @@
 .card-btn {
  display: inline-block;
  padding: 0.75rem 1.5rem;
- background: var(--vp-c-brand);
- color: white;
+ background: linear-gradient(135deg, #ff8a80 0%, #ffe082 100%);
+ color: #333;
  text-decoration: none;
  border-radius: 8px;
  font-weight: 600;
@@ -212,7 +244,8 @@
 }
 
 .card-btn:hover {
- background: var(--vp-c-brand-dark);
+ background: linear-gradient(135deg, #ff5252 0%, #ffd54f 100%);
+ color: white;
  transform: translateY(-2px);
 }
 
