@@ -35,50 +35,50 @@ features:
 <!-- ===== Announcement Bar ===== -->
 <div class="announcement-bar">
   <div class="announcement-track">
-    <span>&#x1F1E9;&#x1F1EA; Germany · Michael placed an order</span>
+    <span>🇩🇪 Germany · Michael placed an order</span>
     <span class="sep">✦</span>
-    <span>&#x1F1EB;&#x1F1F7; France · Alex found Nike Shoes</span>
+    <span>🇫🇷 France · Alex found Nike Shoes</span>
     <span class="sep"></span>
-    <span>&#x1F1EE;&#x1F1F9; Italy · Luca added Jordan 4</span>
+    <span>🇮🇹 Italy · Luca added Jordan 4</span>
     <span class="sep">✦</span>
-    <span>&#x1F1FA;&#x1F1F8; USA · Emily viewed Essentials Hoodie</span>
+    <span>🇺🇸 USA · Emily viewed Essentials Hoodie</span>
     <span class="sep">✦</span>
-    <span>&#x1F1EA;&#x1F1F8; Spain · Carlos saved a spreadsheet</span>
+    <span>🇪🇸 Spain · Carlos saved a spreadsheet</span>
     <span class="sep">✦</span>
-    <span>&#x1F1F5;&#x1F1F1; Poland · Adam purchased a jersey</span>
+    <span>🇵🇱 Poland · Adam purchased a jersey</span>
     <span class="sep">✦</span>
-    <span>&#x1F1F3;&#x1F1F1; Netherlands · Emma opened Kakobuy</span>
+    <span>🇳🇱 Netherlands · Emma opened Kakobuy</span>
     <span class="sep"></span>
-    <span>&#x1F1EC;&#x1F1E7; United Kingdom · Oliver found the best deal</span>
+    <span>🇬🇧 United Kingdom · Oliver found the best deal</span>
     <span class="sep">✦</span>
-    <span>&#x1F1F8;&#x1F1EA; Sweden · Sofia compared prices</span>
+    <span>🇸🇪 Sweden · Sofia compared prices</span>
     <span class="sep">✦</span>
-    <span>&#x1F1E6;&#x1F1F9; Austria · Lukas found Arc'teryx</span>
+    <span>🇦🇹 Austria · Lukas found Arc'teryx</span>
     <span class="sep">✦</span>
-    <span>&#x1F1E8;&#x1F1ED; Switzerland · Nina saved on Carhartt</span>
+    <span>🇨🇭 Switzerland · Nina saved on Carhartt</span>
     <span class="sep">✦</span>
     <!-- Duplicate for seamless loop -->
-    <span>&#x1F1E9;&#x1F1EA; Germany · Michael placed an order</span>
+    <span>🇩🇪 Germany · Michael placed an order</span>
     <span class="sep">✦</span>
-    <span>&#x1F1EB;&#x1F1F7; France · Alex found Nike Shoes</span>
+    <span>🇫🇷 France · Alex found Nike Shoes</span>
     <span class="sep">✦</span>
-    <span>&#x1F1EE;&#x1F1F9; Italy · Luca added Jordan 4</span>
+    <span>🇮🇹 Italy · Luca added Jordan 4</span>
     <span class="sep"></span>
-    <span>&#x1F1FA;&#x1F1F8; USA · Emily viewed Essentials Hoodie</span>
+    <span>🇺🇸 USA · Emily viewed Essentials Hoodie</span>
     <span class="sep">✦</span>
-    <span>&#x1F1EA;&#x1F1F8; Spain · Carlos saved a spreadsheet</span>
+    <span>🇪🇸 Spain · Carlos saved a spreadsheet</span>
     <span class="sep">✦</span>
-    <span>&#x1F1F5;&#x1F1F1; Poland · Adam purchased a jersey</span>
+    <span>🇵🇱 Poland · Adam purchased a jersey</span>
     <span class="sep">✦</span>
-    <span>&#x1F1F3;&#x1F1F1; Netherlands · Emma opened Kakobuy</span>
+    <span>🇳🇱 Netherlands · Emma opened Kakobuy</span>
     <span class="sep">✦</span>
-    <span>&#x1F1EC;&#x1F1E7; United Kingdom · Oliver found the best deal</span>
+    <span>🇬🇧 United Kingdom · Oliver found the best deal</span>
     <span class="sep">✦</span>
-    <span>&#x1F1F8;&#x1F1EA; Sweden · Sofia compared prices</span>
+    <span>🇸🇪 Sweden · Sofia compared prices</span>
     <span class="sep">✦</span>
-    <span>&#x1F1E6;&#x1F1F9; Austria · Lukas found Arc'teryx</span>
+    <span>🇦🇹 Austria · Lukas found Arc'teryx</span>
     <span class="sep">✦</span>
-    <span>&#x1F1E8;&#x1F1ED; Switzerland · Nina saved on Carhartt</span>
+    <span>🇨🇭 Switzerland · Nina saved on Carhartt</span>
     <span class="sep"></span>
   </div>
 </div>
@@ -373,17 +373,17 @@ features:
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p>"Found everything in minutes. The spreadsheet saves me hours of research every week."</p>
-        <div class="review-author">— Michael, &#x1F1E9;&#x1F1EA; Germany</div>
+        <div class="review-author">— Michael, 🇩🇪 Germany</div>
       </div>
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p>"Best spreadsheet website. Much better than searching Reddit for deals."</p>
-        <div class="review-author">— Alex, &#x1F1EB;&#x1F1F7; France</div>
+        <div class="review-author">— Alex, 🇫🇷 France</div>
       </div>
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p>"The weekly updates are consistent and the data is always accurate. Highly recommended."</p>
-        <div class="review-author">— Emily, &#x1F1FA;&#x1F1F8; USA</div>
+        <div class="review-author">— Emily, 🇺🇸 USA</div>
       </div>
     </div>
   </div>
