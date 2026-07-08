@@ -1,16 +1,16 @@
 ---
 layout: home
 hero:
- name: "**Best Spreadsheet Selection**"
- text: "Compare shopping agents, discover the best spreadsheets, and save money across every platform."
- tagline: "Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands"
- actions:
- - theme: brand
- text: Explore Platforms
- link: '#platforms'
- - theme: alt
- text: Weekly Best Deals
- link: '#categories'
+  name: "**Best Spreadsheet Selection**"
+  text: "Compare shopping agents, discover the best spreadsheets, and save money across every platform."
+  tagline: "Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands"
+  actions:
+    - theme: brand
+      text: Explore Platforms
+      link: '#platforms'
+    - theme: alt
+      text: Weekly Best Deals
+      link: '#categories'
 features:
  - title: Updated Daily
  details: Fresh data every day with the latest prices and availability
