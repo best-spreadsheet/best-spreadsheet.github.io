@@ -12,18 +12,18 @@ hero:
       text: Weekly Best Deals
       link: '#categories'
 features:
- - title: Updated Daily
- details: Fresh data every day with the latest prices and availability
- - title: Real QC Photos
- details: See actual product quality before you buy
- - title: Price Comparison
- details: Compare identical products across multiple platforms instantly
- - title: Multi-platform
- details: 18+ platforms covered in one place
- - title: Fast Loading
- details: Optimized for speed, no unnecessary scripts
- - title: Free Access
- details: No registration required, free forever
+  - title: Updated Daily
+    details: Fresh data every day with the latest prices and availability
+  - title: Real QC Photos
+    details: See actual product quality before you buy
+  - title: Price Comparison
+    details: Compare identical products across multiple platforms instantly
+  - title: Multi-platform
+    details: 18+ platforms covered in one place
+  - title: Fast Loading
+    details: Optimized for speed, no unnecessary scripts
+  - title: Free Access
+    details: No registration required, free forever
 ---
 
 <!-- ===== Trust Badges ===== -->
