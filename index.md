@@ -11,32 +11,7 @@ hero:
     - theme: alt
       text: Weekly Best Deals
       link: '#categories'
-features:
-  - title: Updated Daily
-    details: Fresh data every day with the latest prices and availability
-  - title: Real QC Photos
-    details: See actual product quality before you buy
-  - title: Price Comparison
-    details: Compare identical products across multiple platforms instantly
-  - title: Multi-platform
-    details: 18+ platforms covered in one place
-  - title: Fast Loading
-    details: Optimized for speed, no unnecessary scripts
-  - title: Free Access
-    details: No registration required, free forever
 ---
-
-<!-- ===== Trust Badges ===== -->
-<section class="section trust-badges-section">
- <div class="badge-row">
- <div class="badge-item"><span class="badge-icon"></span> Updated Daily</div>
- <div class="badge-item"><span class="badge-icon"></span> Free Access</div>
- <div class="badge-item"><span class="badge-icon"></span> QC Photos</div>
- <div class="badge-item"><span class="badge-icon"></span> Multi-platform</div>
- <div class="badge-item"><span class="badge-icon"></span> Fast Loading</div>
- <div class="badge-item"><span class="badge-icon"></span> No Registration</div>
- </div>
-</section>
 
 <!-- ===== Platform Quick Access ===== -->
 <section class="section quick-access-section">
