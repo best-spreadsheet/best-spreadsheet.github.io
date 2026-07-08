@@ -60,6 +60,41 @@
 
 .VPHero .actions {
  justify-content: center !important;
+ gap: 1rem !important;
+}
+
+.VPHero .actions a {
+ padding: 0.85rem 2rem !important;
+ border-radius: 50px !important;
+ font-size: 1rem !important;
+ font-weight: 600 !important;
+ transition: var(--transition) !important;
+}
+
+.VPHero .actions a.VPButton.brand {
+ background: linear-gradient(135deg, #ff8a80 0%, #ffe082 100%) !important;
+ color: #333 !important;
+ border: none !important;
+}
+
+.VPHero .actions a.VPButton.brand:hover {
+ background: linear-gradient(135deg, #ff5252 0%, #ffd54f 100%) !important;
+ color: white !important;
+ transform: translateY(-2px) !important;
+ box-shadow: 0 4px 15px rgba(229, 57, 53, 0.3) !important;
+}
+
+.VPHero .actions a.VPButton.alt {
+ background: white !important;
+ color: #333 !important;
+ border: 2px solid #e0e0e0 !important;
+}
+
+.VPHero .actions a.VPButton.alt:hover {
+ border-color: var(--vp-c-brand) !important;
+ color: var(--vp-c-brand) !important;
+ transform: translateY(-2px) !important;
+ box-shadow: 0 4px 15px rgba(229, 57, 53, 0.15) !important;
 }
 
 /* ===== Section Base ===== */

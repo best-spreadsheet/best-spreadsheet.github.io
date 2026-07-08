@@ -4,6 +4,13 @@ hero:
   name: "Best Spreadsheet Selection"
   text: "Compare shopping agents, discover the best spreadsheets, and save money across every platform."
   tagline: "Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands"
+  actions:
+    - theme: brand
+      text: Best Jerseys 2026
+      link: 'https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=918774787#gid=918774787'
+    - theme: alt
+      text: Weekly Best Sellers
+      link: 'https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1061262076#gid=1061262076'
 ---
 
 <!-- ===== Platform Grid ===== -->
