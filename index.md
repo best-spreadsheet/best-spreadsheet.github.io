@@ -32,57 +32,6 @@ features:
     details: No registration required, free forever
 ---
 
-<!-- ===== Announcement Bar ===== -->
-<div class="announcement-bar">
-  <div class="announcement-track">
-    <span>🇩🇪 Germany · Michael placed an order</span>
-    <span class="sep">✦</span>
-    <span>🇫🇷 France · Alex found Nike Shoes</span>
-    <span class="sep"></span>
-    <span>🇮🇹 Italy · Luca added Jordan 4</span>
-    <span class="sep">✦</span>
-    <span>🇺🇸 USA · Emily viewed Essentials Hoodie</span>
-    <span class="sep">✦</span>
-    <span>🇪🇸 Spain · Carlos saved a spreadsheet</span>
-    <span class="sep">✦</span>
-    <span>🇵🇱 Poland · Adam purchased a jersey</span>
-    <span class="sep">✦</span>
-    <span>🇳🇱 Netherlands · Emma opened Kakobuy</span>
-    <span class="sep"></span>
-    <span>🇬🇧 United Kingdom · Oliver found the best deal</span>
-    <span class="sep">✦</span>
-    <span>🇸🇪 Sweden · Sofia compared prices</span>
-    <span class="sep">✦</span>
-    <span>🇦🇹 Austria · Lukas found Arc'teryx</span>
-    <span class="sep">✦</span>
-    <span>🇨🇭 Switzerland · Nina saved on Carhartt</span>
-    <span class="sep">✦</span>
-    <!-- Duplicate for seamless loop -->
-    <span>🇩🇪 Germany · Michael placed an order</span>
-    <span class="sep">✦</span>
-    <span>🇫🇷 France · Alex found Nike Shoes</span>
-    <span class="sep">✦</span>
-    <span>🇮🇹 Italy · Luca added Jordan 4</span>
-    <span class="sep"></span>
-    <span>🇺🇸 USA · Emily viewed Essentials Hoodie</span>
-    <span class="sep">✦</span>
-    <span>🇪🇸 Spain · Carlos saved a spreadsheet</span>
-    <span class="sep">✦</span>
-    <span>🇵🇱 Poland · Adam purchased a jersey</span>
-    <span class="sep">✦</span>
-    <span>🇳🇱 Netherlands · Emma opened Kakobuy</span>
-    <span class="sep">✦</span>
-    <span>🇬🇧 United Kingdom · Oliver found the best deal</span>
-    <span class="sep">✦</span>
-    <span>🇸🇪 Sweden · Sofia compared prices</span>
-    <span class="sep">✦</span>
-    <span>🇦🇹 Austria · Lukas found Arc'teryx</span>
-    <span class="sep">✦</span>
-    <span>🇨🇭 Switzerland · Nina saved on Carhartt</span>
-    <span class="sep"></span>
-  </div>
-</div>
-
 <!-- ===== Trust Badges ===== -->
 <section class="section trust-badges-section">
   <div class="badge-row">
