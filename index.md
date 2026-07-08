@@ -1,35 +1,10 @@
 ---
 layout: home
 hero:
-  name: "**Best Spreadsheet Selection**"
+  name: "Best Spreadsheet Selection"
   text: "Compare shopping agents, discover the best spreadsheets, and save money across every platform."
   tagline: "Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands"
-  actions:
-    - theme: brand
-      text: Explore Platforms
-      link: '#platforms'
-    - theme: alt
-      text: Weekly Best Deals
-      link: '#categories'
 ---
-
-<!-- ===== Platform Quick Access ===== -->
-<section class="section quick-access-section">
- <div class="section-container">
- <h2 class="section-title">Quick Access</h2>
- <div class="quick-btn-row">
- <a href="#platforms" class="quick-btn">Kakobuy</a>
- <a href="#platforms" class="quick-btn">Oopbuy</a>
- <a href="#platforms" class="quick-btn">USFans</a>
- <a href="#platforms" class="quick-btn">Weidian</a>
- <a href="#platforms" class="quick-btn">Litbuy</a>
- <a href="#platforms" class="quick-btn">Mulebuy</a>
- <a href="#platforms" class="quick-btn">Superbuy</a>
- <a href="#platforms" class="quick-btn">GTBuy</a>
- <a href="#platforms" class="quick-btn">Acbuy</a>
- </div>
- </div>
-</section>
 
 <!-- ===== Platform Grid ===== -->
 <section id="platforms" class="section platforms-section">

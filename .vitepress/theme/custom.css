@@ -36,22 +36,26 @@
 }
 
 .VPHero .name {
- white-space: nowrap !important;
  text-align: center !important;
+ font-size: 3.5rem !important;
+ font-weight: 800 !important;
+ letter-spacing: -0.02em !important;
+ color: #1a1a2e !important;
 }
 
 .VPHero .text {
- white-space: nowrap !important;
  text-align: center !important;
- overflow: hidden;
- text-overflow: ellipsis;
+ font-size: 1.5rem !important;
+ font-weight: 400 !important;
+ color: #555 !important;
+ line-height: 1.6 !important;
 }
 
 .VPHero .tagline {
- white-space: nowrap !important;
  text-align: center !important;
- overflow: hidden;
- text-overflow: ellipsis;
+ font-size: 1.1rem !important;
+ font-weight: 500 !important;
+ color: var(--vp-c-brand) !important;
 }
 
 .VPHero .actions {
