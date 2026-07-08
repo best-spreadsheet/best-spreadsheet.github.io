@@ -15,7 +15,7 @@ features:
   - icon: 🏆
     title: Updated Weekly
     details: Fresh data every week with the latest prices and availability
-  - icon: ⚽
+  - icon: 
     title: Best Jerseys 2026
     details: Curated selection of top-rated jerseys across all platforms
   - icon: 🔍
@@ -25,6 +25,14 @@ features:
     title: Multi-Language
     details: Available in English and Polish for Kakobuy platform
 ---
+
+<!-- Quick Access Platform Buttons (Hero Area) -->
+<div class="hero-platform-buttons">
+  <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1903531254#gid=1903531254" target="_blank" rel="noopener" class="hero-platform-btn">🛒 Kakobuy EN</a>
+  <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=2130476646#gid=2130476646" target="_blank" rel="noopener" class="hero-platform-btn secondary"> Kakobuy PL</a>
+  <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1061262076#gid=1061262076" target="_blank" rel="noopener" class="hero-platform-btn">🏆 Weekly Best Sellers</a>
+  <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=918774787#gid=918774787" target="_blank" rel="noopener" class="hero-platform-btn"> Best Jerseys 2026</a>
+</div>
 
 <!-- Platform Selection Section -->
 <section id="platforms" class="section platforms-section">

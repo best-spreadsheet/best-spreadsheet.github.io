@@ -1,29 +1,181 @@
-/* 自定义主题色 */
+/* ===== Theme Colors ===== */
 :root {
   --vp-c-brand-1: #e53935;
   --vp-c-brand-2: #c62828;
   --vp-c-brand-3: #b71c1c;
 }
 
-/* 自定义按钮样式 */
+/* ===== Marquee Banner ===== */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #e53935 0%, #c62828 50%, #e53935 100%);
+  padding: 0.54rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.marquee-container::before,
+.marquee-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marquee-container::before {
+  left: 0;
+  background: linear-gradient(90deg, #e53935 0%, transparent 100%);
+}
+
+.marquee-container::after {
+  right: 0;
+  background: linear-gradient(270deg, #e53935 0%, transparent 100%);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 90s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.marquee-item .text {
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.marquee-separator {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+/* ===== Layout Adjustments for Marquee ===== */
+.VPNav {
+  top: 3.36rem !important;
+  z-index: 200 !important;
+}
+
+.VPSidebar {
+  top: 3.36rem !important;
+  z-index: 200 !important;
+}
+
+.VPContent {
+  padding-top: 24rem;
+}
+
+@media (max-width: 768px) {
+  .VPContent {
+    padding-top: 9.6rem;
+  }
+}
+
+/* ===== Hero Section Platform Buttons ===== */
+.hero-platform-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.hero-platform-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  background: var(--vp-c-brand-1);
+  color: white;
+}
+
+.hero-platform-btn:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(229, 57, 53, 0.3);
+}
+
+.hero-platform-btn.secondary {
+  background: transparent;
+  color: var(--vp-c-brand-1);
+  border: 2px solid var(--vp-c-brand-1);
+}
+
+.hero-platform-btn.secondary:hover {
+  background: var(--vp-c-brand-1);
+  color: white;
+}
+
+/* ===== Button Enhancements ===== */
 .VPButton.brand {
   border-radius: 8px;
-  transition: transform 0.2s;
+  transition: all 0.2s;
+  font-weight: 600;
 }
 
 .VPButton.brand:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(229, 57, 53, 0.3);
 }
 
-/* 自定义卡片悬停效果 */
-.feature, .platform-card {
+/* ===== Card Enhancements ===== */
+.feature, .platform-card, .category-card {
   transition: all 0.3s ease;
 }
 
-/* 响应式优化 */
+.feature:hover, .platform-card:hover, .category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Responsive Optimizations ===== */
 @media (max-width: 768px) {
-  .features, .platform-grid {
+  .features, .platform-grid, .category-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .hero-platform-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-platform-btn {
+    justify-content: center;
   }
 }
