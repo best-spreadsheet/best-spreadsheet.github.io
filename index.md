@@ -12,23 +12,17 @@ hero:
       text: Weekly Best Deals
       link: '#categories'
 features:
-  - icon: 📅
-    title: Updated Daily
+  - title: Updated Daily
     details: Fresh data every day with the latest prices and availability
-  - icon: "Q"
-    title: Real QC Photos
+  - title: Real QC Photos
     details: See actual product quality before you buy
-  - icon: 🔍
-    title: Price Comparison
+  - title: Price Comparison
     details: Compare identical products across multiple platforms instantly
-  - icon: 🌐
-    title: Multi-platform
+  - title: Multi-platform
     details: 18+ platforms covered in one place
-  - icon: ⚡
-    title: Fast Loading
+  - title: Fast Loading
     details: Optimized for speed, no unnecessary scripts
-  - icon: 🆓
-    title: Free Access
+  - title: Free Access
     details: No registration required, free forever
 ---
 
