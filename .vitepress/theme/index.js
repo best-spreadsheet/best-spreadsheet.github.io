@@ -2,6 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import './custom.css'
 
+const BaseLayout = DefaultTheme.Layout
+
 const marqueeData = [
   { text: '\u{1F1F5}\u{1F1F1} Polish users have placed their orders' },
   { text: '\u{1F1FA}\u{1F1F8} American users have placed their orders' },
@@ -34,20 +36,21 @@ function createMarqueeContent() {
       ])
     )
     items.push(
-      h('span', { class: 'marquee-separator', key: `sep-${index}` }, '✦')
+      h('span', { class: 'marquee-separator', key: `sep-${index}` }, '\u2726')
     )
   })
   return items
 }
 
+const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
+
 export default {
-  ...DefaultTheme,
+  extends: DefaultTheme,
   Layout() {
-    const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
-    return h(DefaultTheme.Layout, null, {
+    return h(BaseLayout, null, {
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ])
     })
-  },
+  }
 }
