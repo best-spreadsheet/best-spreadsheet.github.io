@@ -12,7 +12,7 @@ hero:
       text: View Weekly Deals
       link: '#categories'
 features:
-  - icon: 
+  - icon: 🏆
     title: Updated Weekly
     details: Fresh data every week with the latest prices and availability
   - icon: ⚽
