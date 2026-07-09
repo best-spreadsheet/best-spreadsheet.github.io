@@ -26,7 +26,7 @@
 .marquee-track {
  display: flex;
  width: max-content;
- animation: marquee-scroll 60s linear infinite;
+ animation: marquee-scroll 72s linear infinite;
  will-change: transform;
 }
 
@@ -63,12 +63,17 @@
 /* ===== Layout Adjustments for Fixed Banner ===== */
 .VPNav {
  top: 40px !important;
- z-index: 200 !important;
+ z-index: 250 !important;
+ background: var(--vp-nav-bg-color, #ffffff) !important;
+}
+
+.dark .VPNav {
+ background: var(--vp-nav-bg-color, #1a1a2e) !important;
 }
 
 .VPSidebar {
  top: 40px !important;
- z-index: 200 !important;
+ z-index: 250 !important;
 }
 
 .VPContent {
