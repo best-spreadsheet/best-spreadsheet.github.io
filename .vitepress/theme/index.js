@@ -1,16 +1,19 @@
 import DefaultTheme from 'vitepress/theme'
+import { onMounted, watch } from 'vue'
+import { useRoute } from 'vitepress'
 import './custom.css'
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app, router }) {
-    if (typeof window !== 'undefined') {
-      router.onAfterRouteChanged = () => {
-        initOnlineCounter();
-      };
-      // Run on initial load
-      setTimeout(initOnlineCounter, 100);
-    }
+  Layout() {
+    const route = useRoute()
+    onMounted(() => {
+      initOnlineCounter()
+    })
+    watch(() => route.path, () => {
+      setTimeout(initOnlineCounter, 300)
+    })
+    return DefaultTheme.Layout
   }
 };
 
