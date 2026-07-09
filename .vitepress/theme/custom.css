@@ -26,49 +26,67 @@
  padding-top: 2.4rem;
 }
 
-/* ===== Hero Section Centered ===== */
+/* ===== Hero Section Left-Right Layout ===== */
 .VPHero {
- text-align: center !important;
+ text-align: left !important;
+ padding: 4rem 0 3rem !important;
+}
+
+.VPHero .container {
+ display: flex !important;
+ align-items: center !important;
+ justify-content: space-between !important;
+ gap: 3rem !important;
 }
 
 .VPHero .main {
- text-align: center !important;
+ flex: 1 !important;
+ text-align: left !important;
+ min-width: 0 !important;
 }
 
 .VPHero .name {
- text-align: center !important;
+ text-align: left !important;
  font-size: 3.5rem !important;
  font-weight: 800 !important;
  letter-spacing: -0.02em !important;
  color: #1a1a2e !important;
+ line-height: 1.15 !important;
 }
 
 .VPHero .text {
- text-align: center !important;
- font-size: 1.5rem !important;
+ text-align: left !important;
+ font-size: 1.35rem !important;
  font-weight: 400 !important;
  color: #555 !important;
  line-height: 1.6 !important;
+ margin-top: 0.75rem !important;
 }
 
 .VPHero .tagline {
- text-align: center !important;
- font-size: 1.1rem !important;
+ text-align: left !important;
+ font-size: 1.05rem !important;
  font-weight: 500 !important;
  color: var(--vp-c-brand) !important;
+ margin-top: 1rem !important;
 }
 
 .VPHero .actions {
- justify-content: center !important;
+ flex: 0 0 auto !important;
+ display: flex !important;
+ flex-direction: column !important;
  gap: 1rem !important;
+ min-width: 220px !important;
 }
 
 .VPHero .actions a {
- padding: 0.85rem 2rem !important;
+ padding: 1rem 2.2rem !important;
  border-radius: 50px !important;
  font-size: 1rem !important;
  font-weight: 600 !important;
  transition: var(--transition) !important;
+ text-align: center !important;
+ white-space: nowrap !important;
 }
 
 .VPHero .actions a.VPButton.brand {
@@ -95,6 +113,26 @@
  color: var(--vp-c-brand) !important;
  transform: translateY(-2px) !important;
  box-shadow: 0 4px 15px rgba(229, 57, 53, 0.15) !important;
+}
+
+@media (max-width: 768px) {
+ .VPHero .container {
+ flex-direction: column !important;
+ text-align: center !important;
+ }
+ .VPHero .main {
+ text-align: center !important;
+ }
+ .VPHero .name,
+ .VPHero .text,
+ .VPHero .tagline {
+ text-align: center !important;
+ }
+ .VPHero .actions {
+ flex-direction: row !important;
+ justify-content: center !important;
+ min-width: auto !important;
+ }
 }
 
 /* ===== Section Base ===== */
