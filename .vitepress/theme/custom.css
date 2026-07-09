@@ -31,10 +31,16 @@
  display: none !important;
 }
 
+.VPHome .container {
+ padding-top: 0 !important;
+ padding-bottom: 0 !important;
+}
+
 /* ===== Custom Hero Section ===== */
 .custom-hero {
- padding: 5rem 1.5rem 4rem;
+ padding: 3rem 1.5rem 1.5rem;
  background: white;
+ margin-bottom: 0;
 }
 
 .custom-hero-container {
@@ -233,6 +239,7 @@
 /* ===== Platform Grid ===== */
 .platforms-section {
  background: #f8f9fa;
+ padding: 1rem 1.5rem 4rem;
 }
 
 .platform-grid {
