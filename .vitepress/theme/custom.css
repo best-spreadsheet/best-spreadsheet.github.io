@@ -26,112 +26,117 @@
  padding-top: 2.4rem;
 }
 
-/* ===== Hero Section Left-Right Layout ===== */
+/* ===== Hide Default VitePress Hero ===== */
 .VPHero {
- text-align: left !important;
- padding: 4rem 0 3rem !important;
+ display: none !important;
 }
 
-.VPHero .container {
- display: flex !important;
- align-items: center !important;
- justify-content: space-between !important;
- gap: 3rem !important;
+/* ===== Custom Hero Section ===== */
+.custom-hero {
+ padding: 5rem 1.5rem 4rem;
+ background: white;
 }
 
-.VPHero .main {
- flex: 1 !important;
- text-align: left !important;
- min-width: 0 !important;
+.custom-hero-container {
+ max-width: 1200px;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 4rem;
 }
 
-.VPHero .name {
- text-align: left !important;
- font-size: 3.5rem !important;
- font-weight: 800 !important;
- letter-spacing: -0.02em !important;
- color: #1a1a2e !important;
- line-height: 1.15 !important;
+.hero-left {
+ flex: 1;
+ min-width: 0;
 }
 
-.VPHero .text {
- text-align: left !important;
- font-size: 1.35rem !important;
- font-weight: 400 !important;
- color: #555 !important;
- line-height: 1.6 !important;
- margin-top: 0.75rem !important;
+.hero-title {
+ font-size: 3.5rem;
+ font-weight: 800;
+ letter-spacing: -0.02em;
+ color: #1a1a2e;
+ line-height: 1.15;
+ margin: 0 0 1rem 0;
 }
 
-.VPHero .tagline {
- text-align: left !important;
- font-size: 1.05rem !important;
- font-weight: 500 !important;
- color: var(--vp-c-brand) !important;
- margin-top: 1rem !important;
+.hero-text {
+ font-size: 1.35rem;
+ font-weight: 400;
+ color: #555;
+ line-height: 1.6;
+ margin: 0 0 1rem 0;
 }
 
-.VPHero .actions {
- flex: 0 0 auto !important;
- display: flex !important;
- flex-direction: column !important;
- gap: 1rem !important;
- min-width: 220px !important;
+.hero-tagline {
+ font-size: 1.05rem;
+ font-weight: 500;
+ color: var(--vp-c-brand);
+ margin: 0;
 }
 
-.VPHero .actions a {
- padding: 1rem 2.2rem !important;
- border-radius: 50px !important;
- font-size: 1rem !important;
- font-weight: 600 !important;
- transition: var(--transition) !important;
- text-align: center !important;
- white-space: nowrap !important;
+.hero-right {
+ flex: 0 0 auto;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ min-width: 220px;
 }
 
-.VPHero .actions a.VPButton.brand {
- background: linear-gradient(135deg, #ff8a80 0%, #ffe082 100%) !important;
- color: #333 !important;
- border: none !important;
+.hero-btn {
+ display: inline-block;
+ padding: 1rem 2.2rem;
+ border-radius: 50px;
+ font-size: 1rem;
+ font-weight: 600;
+ text-decoration: none;
+ text-align: center;
+ white-space: nowrap;
+ transition: var(--transition);
 }
 
-.VPHero .actions a.VPButton.brand:hover {
- background: linear-gradient(135deg, #ff5252 0%, #ffd54f 100%) !important;
- color: white !important;
- transform: translateY(-2px) !important;
- box-shadow: 0 4px 15px rgba(229, 57, 53, 0.3) !important;
+.hero-btn-brand {
+ background: linear-gradient(135deg, #ff8a80 0%, #ffe082 100%);
+ color: #333;
+ border: none;
 }
 
-.VPHero .actions a.VPButton.alt {
- background: white !important;
- color: #333 !important;
- border: 2px solid #e0e0e0 !important;
+.hero-btn-brand:hover {
+ background: linear-gradient(135deg, #ff5252 0%, #ffd54f 100%);
+ color: white;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 15px rgba(229, 57, 53, 0.3);
 }
 
-.VPHero .actions a.VPButton.alt:hover {
- border-color: var(--vp-c-brand) !important;
- color: var(--vp-c-brand) !important;
- transform: translateY(-2px) !important;
- box-shadow: 0 4px 15px rgba(229, 57, 53, 0.15) !important;
+.hero-btn-alt {
+ background: white;
+ color: #333;
+ border: 2px solid #e0e0e0;
+}
+
+.hero-btn-alt:hover {
+ border-color: var(--vp-c-brand);
+ color: var(--vp-c-brand);
+ transform: translateY(-2px);
+ box-shadow: 0 4px 15px rgba(229, 57, 53, 0.15);
 }
 
 @media (max-width: 768px) {
- .VPHero .container {
- flex-direction: column !important;
- text-align: center !important;
+ .custom-hero-container {
+ flex-direction: column;
+ text-align: center;
+ gap: 2rem;
  }
- .VPHero .main {
- text-align: center !important;
+ .hero-right {
+ flex-direction: row;
+ justify-content: center;
+ min-width: auto;
  }
- .VPHero .name,
- .VPHero .text,
- .VPHero .tagline {
- text-align: center !important;
+ .hero-title {
+ font-size: 2.5rem;
  }
- .VPHero .actions {
- flex-direction: row !important;
- justify-content: center !important;
- min-width: auto !important;
+ .hero-text {
+ font-size: 1.1rem;
  }
 }
 

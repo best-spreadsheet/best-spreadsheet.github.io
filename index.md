@@ -1,17 +1,21 @@
 ---
 layout: home
-hero:
-  name: "Best Spreadsheet Selection"
-  text: "Compare shopping agents, discover the best spreadsheets, and save money across every platform."
-  tagline: "Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands"
-  actions:
-    - theme: brand
-      text: Best Jerseys 2026
-      link: 'https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=918774787#gid=918774787'
-    - theme: alt
-      text: Weekly Best Sellers
-      link: 'https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1061262076#gid=1061262076'
 ---
+
+<!-- ===== Custom Hero ===== -->
+<section class="custom-hero">
+  <div class="custom-hero-container">
+    <div class="hero-left">
+      <h1 class="hero-title">Best Spreadsheet Selection</h1>
+      <p class="hero-text">Compare shopping agents, discover the best spreadsheets, and save money across every platform.</p>
+      <p class="hero-tagline">Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands</p>
+    </div>
+    <div class="hero-right">
+      <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=918774787#gid=918774787" target="_blank" rel="noopener" class="hero-btn hero-btn-brand">Best Jerseys 2026</a>
+      <a href="https://docs.google.com/spreadsheets/d/1PPoujdSt0MiLO6RIVEZUqmi3-UpOoOKZeHt5Jpt6gno/edit?gid=1061262076#gid=1061262076" target="_blank" rel="noopener" class="hero-btn hero-btn-alt">Weekly Best Sellers</a>
+    </div>
+  </div>
+</section>
 
 <!-- ===== Platform Grid ===== -->
 <section id="platforms" class="section platforms-section">
