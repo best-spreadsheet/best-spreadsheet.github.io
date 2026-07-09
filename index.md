@@ -7,6 +7,11 @@ layout: home
   <div class="custom-hero-container">
     <div class="hero-left">
       <h1 class="hero-title">Best Spreadsheet Selection</h1>
+      <div class="online-users">
+        <span class="online-dot"></span>
+        <span class="online-count" id="onlineCount">347</span>
+        <span class="online-label">users online now</span>
+      </div>
       <p class="hero-text">Compare shopping agents, discover the best spreadsheets, and save money across every platform.</p>
       <p class="hero-tagline">Weekly updated spreadsheets · Price comparison · Best sellers · Trusted by thousands</p>
     </div>
@@ -363,3 +368,22 @@ layout: home
  <p>Copyright © 2026</p>
  </div>
 </footer>
+
+<script>
+(function() {
+  var el = document.getElementById('onlineCount');
+  if (!el) return;
+  function randomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  el.textContent = randomBetween(300, 500);
+  setInterval(function() {
+    var current = parseInt(el.textContent, 10);
+    var change = randomBetween(-15, 15);
+    var next = current + change;
+    if (next < 300) next = 300;
+    if (next > 500) next = 500;
+    el.textContent = next;
+  }, 5000);
+})();
+</script>

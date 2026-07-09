@@ -63,7 +63,38 @@
  letter-spacing: -0.02em;
  color: #1a1a2e;
  line-height: 1.15;
- margin: 0 0 1rem 0;
+ margin: 0 0 0.75rem 0;
+}
+
+.online-users {
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ margin-bottom: 1rem;
+}
+
+.online-dot {
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+ background: #4caf50;
+ animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+ 0%, 100% { opacity: 1; }
+ 50% { opacity: 0.5; }
+}
+
+.online-count {
+ font-size: 1.1rem;
+ font-weight: 700;
+ color: #4caf50;
+}
+
+.online-label {
+ font-size: 0.95rem;
+ color: #666;
 }
 
 .hero-text {
