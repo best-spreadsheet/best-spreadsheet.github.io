@@ -2,6 +2,66 @@
 layout: home
 ---
 
+<!-- ===== Announcement Bar ===== -->
+<div class="marquee-container">
+ <div class="marquee-track">
+  <span class="marquee-item">Poland &bull; M*** viewed Sneakers</span>
+  <span class="marquee-item">Germany &bull; A*** added a Hoodie to Favorites</span>
+  <span class="marquee-item">United States &bull; J*** started comparing prices</span>
+  <span class="marquee-item">Poland &bull; K*** explored Jackets</span>
+  <span class="marquee-item">Germany &bull; L*** saved a shopping list</span>
+  <span class="marquee-item">United States &bull; D*** viewed Accessories</span>
+  <span class="marquee-item">Poland &bull; P*** checked today's best deals</span>
+  <span class="marquee-item">Germany &bull; M*** compared Backpack prices</span>
+  <span class="marquee-item">United States &bull; S*** found a better price</span>
+  <span class="marquee-item">Poland &bull; T*** viewed T-Shirts</span>
+  <span class="marquee-item">Germany &bull; R*** added Sneakers to Wishlist</span>
+  <span class="marquee-item">United States &bull; B*** explored New Arrivals</span>
+  <span class="marquee-item">Poland &bull; C*** searched for Hoodies</span>
+  <span class="marquee-item">Germany &bull; F*** viewed Best Sellers</span>
+  <span class="marquee-item">United States &bull; E*** browsed Clothing</span>
+  <span class="marquee-item">Poland &bull; N*** saved today's deals</span>
+  <span class="marquee-item">Germany &bull; H*** compared Sportswear</span>
+  <span class="marquee-item">United States &bull; K*** viewed Jackets</span>
+  <span class="marquee-item">Poland &bull; J*** discovered Trending Products</span>
+  <span class="marquee-item">Germany &bull; S*** explored Casual Wear</span>
+  <span class="marquee-item">United States &bull; M*** viewed Travel Bags</span>
+  <span class="marquee-item">Poland &bull; A*** checked New Collections</span>
+  <span class="marquee-item">Germany &bull; P*** browsed Streetwear</span>
+  <span class="marquee-item">United States &bull; T*** compared Product Prices</span>
+  <span class="marquee-item">Poland &bull; R*** viewed Weekly Updates</span>
+  <span class="marquee-item">Germany &bull; C*** explored Winter Clothing</span>
+  <span class="marquee-item">United States &bull; L*** found Popular Picks</span>
+  <span class="marquee-item">Poland &bull; M*** viewed Sneakers</span>
+  <span class="marquee-item">Germany &bull; A*** added a Hoodie to Favorites</span>
+  <span class="marquee-item">United States &bull; J*** started comparing prices</span>
+  <span class="marquee-item">Poland &bull; K*** explored Jackets</span>
+  <span class="marquee-item">Germany &bull; L*** saved a shopping list</span>
+  <span class="marquee-item">United States &bull; D*** viewed Accessories</span>
+  <span class="marquee-item">Poland &bull; P*** checked today's best deals</span>
+  <span class="marquee-item">Germany &bull; M*** compared Backpack prices</span>
+  <span class="marquee-item">United States &bull; S*** found a better price</span>
+  <span class="marquee-item">Poland &bull; T*** viewed T-Shirts</span>
+  <span class="marquee-item">Germany &bull; R*** added Sneakers to Wishlist</span>
+  <span class="marquee-item">United States &bull; B*** explored New Arrivals</span>
+  <span class="marquee-item">Poland &bull; C*** searched for Hoodies</span>
+  <span class="marquee-item">Germany &bull; F*** viewed Best Sellers</span>
+  <span class="marquee-item">United States &bull; E*** browsed Clothing</span>
+  <span class="marquee-item">Poland &bull; N*** saved today's deals</span>
+  <span class="marquee-item">Germany &bull; H*** compared Sportswear</span>
+  <span class="marquee-item">United States &bull; K*** viewed Jackets</span>
+  <span class="marquee-item">Poland &bull; J*** discovered Trending Products</span>
+  <span class="marquee-item">Germany &bull; S*** explored Casual Wear</span>
+  <span class="marquee-item">United States &bull; M*** viewed Travel Bags</span>
+  <span class="marquee-item">Poland &bull; A*** checked New Collections</span>
+  <span class="marquee-item">Germany &bull; P*** browsed Streetwear</span>
+  <span class="marquee-item">United States &bull; T*** compared Product Prices</span>
+  <span class="marquee-item">Poland &bull; R*** viewed Weekly Updates</span>
+  <span class="marquee-item">Germany &bull; C*** explored Winter Clothing</span>
+  <span class="marquee-item">United States &bull; L*** found Popular Picks</span>
+ </div>
+</div>
+
 <!-- ===== Custom Hero ===== -->
 <section class="custom-hero">
   <div class="custom-hero-container">

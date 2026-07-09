@@ -11,19 +11,68 @@
  --transition: all 0.3s ease;
 }
 
+/* ===== Announcement Bar (Marquee) ===== */
+.marquee-container {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 40px;
+ background: #1f1f1f;
+ overflow: hidden;
+ z-index: 300;
+}
+
+.marquee-track {
+ display: flex;
+ width: max-content;
+ animation: marquee-scroll 30s linear infinite;
+ will-change: transform;
+}
+
+.marquee-track:hover {
+ animation-play-state: paused;
+}
+
+.marquee-item {
+ display: inline-flex;
+ align-items: center;
+ padding: 0 2rem;
+ color: #ffffff;
+ font-size: 14px;
+ font-weight: 500;
+ white-space: nowrap;
+}
+
+.marquee-item::before {
+ content: '•';
+ margin-right: 2rem;
+ color: rgba(255, 255, 255, 0.4);
+ font-size: 12px;
+}
+
+.marquee-item:first-child::before {
+ display: none;
+}
+
+@keyframes marquee-scroll {
+ 0% { transform: translateX(0); }
+ 100% { transform: translateX(-50%); }
+}
+
 /* ===== Layout Adjustments for Fixed Banner ===== */
 .VPNav {
- top: 2.4rem !important;
+ top: 40px !important;
  z-index: 200 !important;
 }
 
 .VPSidebar {
- top: 2.4rem !important;
+ top: 40px !important;
  z-index: 200 !important;
 }
 
 .VPContent {
- padding-top: 2.4rem;
+ padding-top: 40px;
 }
 
 /* ===== Hide Default VitePress Hero ===== */
