@@ -189,21 +189,6 @@ layout: home
  </div>
 </section>
 
-<!-- ===== Popular This Week ===== -->
-<section class="section popular-section">
- <div class="section-container">
- <h2 class="section-title"> Popular This Week</h2>
- <div class="popular-tags">
- <span class="popular-tag">Nike Shoes</span>
- <span class="popular-tag">Jordan 4</span>
- <span class="popular-tag">Essentials Hoodie</span>
- <span class="popular-tag">Arc'teryx</span>
- <span class="popular-tag">Carhartt</span>
- <span class="popular-tag">Stüssy</span>
- </div>
- </div>
-</section>
-
 <!-- ===== Trending Categories ===== -->
 <section id="categories" class="section categories-section">
  <div class="section-container">
