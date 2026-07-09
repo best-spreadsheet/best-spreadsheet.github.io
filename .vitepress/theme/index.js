@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import { onMounted, watch } from 'vue'
+import { h, onMounted, watch } from 'vue'
 import { useRoute } from 'vitepress'
 import './custom.css'
 
@@ -13,7 +13,7 @@ export default {
     watch(() => route.path, () => {
       setTimeout(initOnlineCounter, 300)
     })
-    return DefaultTheme.Layout
+    return h(DefaultTheme.Layout)
   }
 };
 
